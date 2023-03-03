@@ -1,0 +1,42 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### My SQL Host Data ###
+/MicroEcomm-Spring-New/my-sql-data
+/MicroEcomm-Spring-New/mongo-data
+/MicroEcomm-Spring-New/mysql_keycloak_data/
+/MicroEcomm-Spring-New/postgres/
+/MicroEcomm-Spring-New/postgres-inventory/
+/MicroEcomm-Spring-New/postgres-order/
+/MicroEcomm-Spring-New/grafana/
